@@ -21,7 +21,7 @@
               <a class="nav-link active" aria-current="page" href="/posts">Post</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blade</a>
+              <a class="nav-link" href="/blade">Blade</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

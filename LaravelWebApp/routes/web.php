@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\http\Controllers\PostController;
+use App\http\Controllers\BladeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,4 +25,4 @@ Route::get('/posts{id}',[PostController::class,'getPostById']);
 Route::get('/edit-post{id}',[PostController::class,'editPost']);
 Route::post('/update-post',[PostController::class,'updatePost'])->name('post.update');
 Route::get('/delete-post{id}',[PostController::class,'deletePost']);
-
+Route::get('/blade',[BladeController::class,'aboutBlade']);
